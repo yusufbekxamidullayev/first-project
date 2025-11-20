@@ -420,9 +420,14 @@ function App() {
                   </div>
                 </div>
               </div>
-              <div>
-                <div>
+              <div className="team-cards-images">
+                <div className="team-card-images">
                   <img className="team-card-img" src="https://bootstrapmade.com/content/demo/Clarity/assets/img/person/person-f-3.webp" alt="" />
+                  <img className="team-card-img" src="https://bootstrapmade.com/content/demo/Clarity/assets/img/person/person-f-8.webp" alt="" />
+                </div>
+                <div className="team-card-images2">
+                  <img className="team-card-img" src="https://bootstrapmade.com/content/demo/Clarity/assets/img/person/person-m-4.webp" alt="" />
+                  <img className="team-card-img" src="https://bootstrapmade.com/content/demo/Clarity/assets/img/person/person-m-6.webp" alt="" />
                 </div>
               </div>
             </div>

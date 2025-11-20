@@ -1254,10 +1254,10 @@ main {
 }
 
 .team-cards {
-    margin-top: 60px;
+    margin-top: 100px;
     display: flex;
-    align-items: center;
-    gap: 50px;
+    /* align-items: center; */
+    gap: 80px;
 }
 
 .testimonal-info {
@@ -1296,11 +1296,22 @@ main {
     width: 170px;
     border-radius: 50%;
 }
+.team-cards-images{
+    display: flex;
+    gap: 40px;
+}
+.team-card-images {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
 
-/* ================================
-   RESPONSIVE DESIGN (ADDED ONLY)
-   Kodlaringizga tegilmagan!
-================================ */
+.team-card-images2 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
 
 @media (max-width: 1200px) {
     .navbar {
